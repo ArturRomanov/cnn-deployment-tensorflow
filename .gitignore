@@ -1,0 +1,5 @@
+.env
+.venv
+model/
+requirements.txt
+app/__pycache__
