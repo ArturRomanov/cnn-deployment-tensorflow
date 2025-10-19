@@ -2,6 +2,7 @@ import os
 import logging
 import tensorflow as tf
 from dotenv import load_dotenv
+from typing import List
 
 logging.basicConfig(level=logging.INFO)
 
@@ -17,7 +18,7 @@ class Model:
             current_path + os.getenv("MODEL_PATH")
             )
     
-    def predict(self, tensor):
+    def predict(self, tensor: tf.Tensor) -> List[float]:
         predictions = self.model(tensor, training=False)
         logger.info(f"Predictions: {predictions}")
         return predictions
