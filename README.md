@@ -1,7 +1,7 @@
 # Deployment Project – FastAPI + Docker + TensorFlow inference
 
-A simple example that wraps a TensorFlow/Keras model behind a FastAPI HTTP API.  
-The example is containerised with Docker, uses **Poetry** for dependency management, and ships with a health‑check and simple structured logging.
+A simple example that wraps a **TensorFlow**/**Keras** model behind a **FastAPI** HTTP API.  
+The example is containerised with **Docker**, uses **Poetry** for dependency management, and ships with a health‑check and simple structured logging.
 
 ## Table of Contents
 1. [Overview](#overview)
